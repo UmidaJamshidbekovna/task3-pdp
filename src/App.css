@@ -1,38 +1,29 @@
-.App {
+.titleSite{
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+.nav .navList{
+  list-style: none;
+}
+.navList .navItem{
+  font-size: 1.1rem;
+  color: #343a40;
+}
+.pricing-header h1{
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+.pricing-header p{
+  margin-left: 25%;
   text-align: center;
+    width: 700px;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.pricingCards h4{
+  line-height: 1.2;
+    color: inherit;
+    background-color: #F7F7F7;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
